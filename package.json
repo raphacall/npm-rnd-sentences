@@ -1,21 +1,35 @@
 {
-  "name": "npm-rnd-sentences",
-  "version": "1.0.0",
-  "description": "Repository for the development of an npm package for Platzi's NPM course.",
+  "name": "rnd-sentences",
+  "version": "1.2.0",
+  "description": "Package that when using the >rnd-sentences command returns an inspiring phrase at any time while you work.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphacall/npm-rnd-sentences.git"
+  },
   "keywords": [
-    "course",
-    "platzi",
     "npm",
-    "JavaScript"
+    "JavaScript", 
+    "sentences",
+    "inspiring phrase",
+    "phase",
+    "epic"
   ],
   "author": "Rafael Calles <raphacall@gmail.com>",
   "license": "MIT",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/raphacall/npm-rnd-sentences.git/issues"
+  },
+  "homepage": "https://github.com/raphacall/npm-rnd-sentences.git#readme",
+  "bin": {
+    "rnd-sentences": "bin/global.js"
+  },
+  "preferGlobal": true,
   "dependencies": {
     "node-fetch": "^3.3.2"
-  }
+  },
+  "type": "module"
 }
