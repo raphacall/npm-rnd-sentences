@@ -1,6 +1,6 @@
 {
   "name": "rnd-sentences",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Package that when using the >rnd-sentences command returns an inspiring phrase at any time while you work.",
   "main": "index.js",
   "scripts": {
