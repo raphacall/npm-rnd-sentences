@@ -13,5 +13,9 @@
     "JavaScript"
   ],
   "author": "Rafael Calles <raphacall@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
