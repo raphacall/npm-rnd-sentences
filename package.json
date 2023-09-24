@@ -1,0 +1,17 @@
+{
+  "name": "npm-rnd-sentences",
+  "version": "1.0.0",
+  "description": "Repository for the development of an npm package for Platzi's NPM course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "course",
+    "platzi",
+    "npm",
+    "JavaScript"
+  ],
+  "author": "Rafael Calles <raphacall@gmail.com>",
+  "license": "MIT"
+}
